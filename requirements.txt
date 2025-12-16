@@ -1,0 +1,7 @@
+websockets 
+pandas 
+numpy 
+streamlit 
+plotly 
+statsmodels 
+scipy

@@ -1,0 +1,26 @@
+# ChatGPT Usage Transparency
+
+This project was developed with the assistance of ChatGPT as a productivity and learning aid, in line with the assignment guidelines.
+
+1) How ChatGPT Was Used
+ChatGPT was used in the following ways during development:
+
+- Generating boilerplate code for standard components such as WebSocket ingestion setup, data loading, and basic function templates.
+- Assisting with debugging runtime errors, library-related issues (e.g., pandas resampling, timestamp parsing, Streamlit integration), and edge cases encountered during live data processing.
+- Helping structure the project into modular components (ingestion, storage, resampling, analytics, and frontend) to improve readability and extensibility.
+
+2) What Was Not Delegated to ChatGPT
+The following aspects were independently reasoned, implemented, and validated:
+
+- Overall system architecture and data flow design.
+- Selection of analytics (hedge ratio via OLS, spread, z-score, rolling correlation, ADF test) based on the problem context.
+- Decisions around resampling strategy, live-data safeguards, and handling of insufficient data scenarios.
+- Integration of all components into a working end-to-end application and validation through live runs.
+
+3)Prompts and Interaction Style
+ChatGPT was primarily used through iterative, targeted prompts focused on:
+- Understanding error messages and resolving them correctly.
+- Verifying statistical concepts and their correct implementation.
+- Improving code clarity and defensive handling of live-system edge cases.
+
+The final codebase reflects a clear understanding of all components and does not rely on opaque or unverified AI-generated logic.
